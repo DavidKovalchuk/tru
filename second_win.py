@@ -77,6 +77,4 @@ class TestWin(QWidget):
         self.hide()
         self.fw = FinalWin()
 
-app = QApplication([])
-mw = TestWin()
-app.exec_()
+

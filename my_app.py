@@ -38,7 +38,7 @@ class MainWin(QWidget):
         self.btn.clicked.connect(self.next_win)
 
     def next_win(self):
-        self.hide
+        self.hide()
         self.tw = TestWin()
 
 app = QApplication([])
